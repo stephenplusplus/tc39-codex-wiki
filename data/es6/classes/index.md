@@ -9,10 +9,10 @@
 *ES wiki*: [here](http://wiki.ecmascript.org/doku.php?id=strawman:maximally_minimal_classes)
 
 
-ECMAScript already has excellent features for defining abstractions for kinds of things. The trinity of constructor functions, prototypes, and instances are more than adequate for solving the problems that classes solve in other languages. The intent of this strawman is not to change those semantics. Instead, it’s to provide a terse and declarative surface for those semantics so that programmer intent is expressed instead of the underlying imperative machinery.
+ECMAScript already has excellent features for defining abstractions for kinds of things. The trinity of constructor functions, prototypes, and instances are more than adequate for solving the problems that classes solve in other languages. The intent of this strawman is not to change those semantics. Instead, it's to provide a terse and declarative surface for those semantics so that programmer intent is expressed instead of the underlying imperative machinery.
 
 
-This proposal is based on an es-discuss proposal by Russell Leggett, which was based on a simplification of Dave Herman’s minimal classes proposal. Allen Wirfs-Brock drafted the compiled proposals to form the "Maximally-Minimal Class".
+This proposal is based on an es-discuss proposal by Russell Leggett, which was based on a simplification of Dave Herman's minimal classes proposal. Allen Wirfs-Brock drafted the compiled proposals to form the "Maximally-Minimal Class".
 
 The absolute minimal requirements are:
 
